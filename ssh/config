@@ -1,0 +1,4 @@
+Host ekohandel-vm
+	ForwardAgent yes
+	LocalForward 3000 127.0.0.1:3000
+	RemoteForward /run/user/1000/gnupg/S.gpg-agent %d/.config/gnupg/S.gpg-agent.extra

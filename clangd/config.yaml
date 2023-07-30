@@ -1,0 +1,6 @@
+---
+# For cross compiling linux kernel
+# https://github.com/clangd/clangd/issues/734
+CompileFlags:
+  Remove: -mabi=lp64
+
